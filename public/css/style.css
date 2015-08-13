@@ -99,10 +99,3 @@ div {
     font-weight:bold;
     text-decoration:none;
 }
-
-.round-button #school {
-  position:relative;
-}
-.round-button #school2 {
-  position:absolute;
-}
