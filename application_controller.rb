@@ -38,4 +38,33 @@ class ApplicationController < Sinatra::Base
   get'/future' do
     erb :future
   end
+  
+  get '/clouds' do
+    erb :future
+  end
+  
+  get '/lava' do
+    erb :lava
+  end
+  
+  get '/sunrise' do
+    erb :sunrise
+  end
+  
+  get '/forest' do
+    erb :forest
+  end
+  
+  get '/lights' do
+    erb :lights
+  end
+  
+  get '/waterfall' do
+    erb :waterfall
+  end
+  
+  get '/snow' do
+    erb :snow
+  end
+  
 end
