@@ -3,8 +3,23 @@
 def get_quote(stress)
   
   quotes = {
-  "work" => ["workquote1","workquote2","workquote3"],
-  "relationships" => ["relaquote1", "relaquote2","relaquote3"]
+  "work" => ["The secret to success is to be ready when opportunity comes. -Benjamin Disraeli","Suffering becomes beautiful when anyone bears great calamities with cheerfulness, not through insensibility but through greatness of mind. -Aristotle","In order to carry a positive action we must develop here a positive vision. -Dalai Lama","You cannot have a positive life and a negative mind. -Joyce Meyer"],
+  
+  "relationships" => ["If everything was perfect, you would never learn and you would never grow. -Beyonce Knowles", "Inner peace begins the moment you choose not to allow another person or event to control your emotions.” -Pema Chodron"],
+    
+    "future" => ["It’s okay to be scared. Being scared means you’re about to do something really, really brave. -Mandy Hale","Everything you want is on the other side of fear. -Jack Canfield","In order to carry a positive action we must develop here a positive vision. -Dalai Lama", "You cannot have a positive life and a negative mind. -Joyce Meyer"],
+    
+    "school" => ["If everything was perfect, you would never learn and you would never grow. -Beyonce Knowles","To achieve great things, two things are needed: a plan and not quite enough time. -Leonard Bernstein"],
+    
+    "other" => ["The world will knock you down plenty. You don’t need to be doing it to yourself. -Elizabeth Scott
+","Create the highest, grandest vision possible for your life, because you become what you believe.
+-Oprah Winfrey","In order to carry a positive action we must develop here a positive vision. -Dalai Lama"],
+    
+    "family" => ["Everyone needs to take some time, in some way, to quiet themselves and really listen to their heart. -Jack Kornfield","Having somewhere to go is home. Having someone to love is family. Having both is a blessing. -Unknown"],
+    
+    "deadlines" => ["You are confined only by the walls you build yourself. -Andrew Murphy","Rule your mind or it will rule you. -Buddha"],
+    
+    "sport" => ["To win, you have to risk loss. -Jean Claude Killy","Create the highest, grandest vision possible for your life, because you become what you believe. -Oprah Winfrey"]
     }
     return quotes[stress].sample
 end
@@ -12,12 +27,25 @@ end
 def get_gif(place)
   
   gifs = {
-    "beach" => ["http://i.giphy.com/WSDu1vDKiq5l6.gif"],
-    "clouds" => ["cloudsgif1","cloudsgif2","cloudsgif3"]
+    "beach" => ["http://giphy.com/gifs/yvAzoTBh5hmCc","http://giphy.com/gifs/WWYSFIZo4fsLC","http://giphy.com/gifs/bYzN4ZYhG2waA"],
+    
+    "clouds" => ["http://giphy.com/gifs/1TpGKApbHmkZa","http://giphy.com/gifs/Hp8e8eXnxxiAo","giphy.com/embed/13bGgH9VnEDsuA?html5=true","http://giphy.com/gifs/4k5zJ8BOxTmq4"],
+    
+    "snow" => ["http://giphy.com/gifs/Nt9JdqWD2Drt6","http://giphy.com/gifs/XcsdCc78BtNBu","http://giphy.com/gifs/OdOfTkw2uVADC"],
+    
+    "forest" => ["http://giphy.com/gifs/gBxL0G0DqZd84","http://giphy.com/gifs/UmxjgdgCLPFu","http://giphy.com/gifs/UxTZDNv0Zej4s"],
+    
+    "waterfall" => ["http://giphy.com/gifs/1lRrsraIsEYRW","http://giphy.com/gifs/124syoqOkiOo4o","http://giphy.com/gifs/1lT1OgxCHHnAk"],
+    
+    "lava" => ["http://giphy.com/gifs/CWOL3g43ypHi0","beachgif2","beachgif3"],
+    
+    "northern_lights" => ["http://giphy.com/gifs/awATIzd4tGGeQ","giphy.com/embed/krQzJaxbU1aXS?html5=true"],
+    
+    "sunrise_sunset" => ["http://giphy.com/gifs/4k5zJ8BOxTmq4","http://giphy.com/gifs/AzgbU5qHJlKuY","http://giphy.com/gifs/JZGmwArn4vN8A"]
+    
     }
   return gifs[place].sample
 end 
 # puts get_quote("relationships")
 # puts get_gif("beach")
-
 
