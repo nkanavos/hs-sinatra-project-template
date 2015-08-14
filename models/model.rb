@@ -12,7 +12,7 @@ end
 def get_gif(place)
   
   gifs = {
-    "beach" => ["beachgif1","beachgif2","beachgif3"],
+    "beach" => ["http://i.giphy.com/WSDu1vDKiq5l6.gif"],
     "clouds" => ["cloudsgif1","cloudsgif2","cloudsgif3"]
     }
   return gifs[place].sample
