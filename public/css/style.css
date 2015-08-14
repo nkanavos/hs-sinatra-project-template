@@ -15,7 +15,7 @@ body {
 	border:10px solid #cfdcec;
 /*     overflow:hidden; */
   float: right;
-    background: #4679BD; 
+    background: white; opacity:0.8;
     box-shadow: 0 0 3px gray;
   font-size:35px;
   }
