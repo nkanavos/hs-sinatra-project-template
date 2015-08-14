@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
-
+/*http://chromecastbg.alexmeub.com/images/1200_IMGP8440.jpg */
 body {
-  background-image: url("http://chromecastbg.alexmeub.com/images/1200_IMGP8440.jpg");
+  background-image: url("../css/images/giffy.gif");
     font-family:"Raleway", sans-serif;
 }
 .round-button {
