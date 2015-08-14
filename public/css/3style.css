@@ -1,6 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 body {
-  background-color:turquoise;
+  background-color:blue;
+  font-family:"Raleway", sans-serif;
 }
+
 img {
   margin-top: 15px;
   margin-left: 21%;
