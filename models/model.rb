@@ -27,21 +27,21 @@ end
 def get_gif(place)
   
   gifs = {
-    "Beach" => ["http://giphy.com/gifs/yvAzoTBh5hmCc","http://giphy.com/gifs/WWYSFIZo4fsLC","http://giphy.com/gifs/bYzN4ZYhG2waA"],
+    "Beach" => ["http://i.giphy.com/yvAzoTBh5hmCc.gif","http://i.giphy.com/WWYSFIZo4fsLC.gif","http://i.giphy.com/bYzN4ZYhG2waA.gif"],
     
-    "Clouds" => ["http://giphy.com/gifs/1TpGKApbHmkZa","http://giphy.com/gifs/Hp8e8eXnxxiAo","giphy.com/embed/13bGgH9VnEDsuA?html5=true","http://giphy.com/gifs/4k5zJ8BOxTmq4"],
+    "Clouds" => ["http://i.giphy.com/1TpGKApbHmkZa.gif","","http://i.giphy.com/Hp8e8eXnxxiAo.gif","http://i.giphy.com/4k5zJ8BOxTmq4.gif"],
     
-    "Snow" => ["http://giphy.com/gifs/Nt9JdqWD2Drt6","http://giphy.com/gifs/XcsdCc78BtNBu","http://giphy.com/gifs/OdOfTkw2uVADC"],
+    "Snow" => ["http://i.giphy.com/Nt9JdqWD2Drt6.gif","http://i.giphy.com/XcsdCc78BtNBu.gif","http://i.giphy.com/OdOfTkw2uVADC.gif"],
     
-    "Forest" => ["http://giphy.com/gifs/gBxL0G0DqZd84","http://giphy.com/gifs/UmxjgdgCLPFu","http://giphy.com/gifs/UxTZDNv0Zej4s"],
+    "Forest" => ["http://i.giphy.com/gBxL0G0DqZd84.gif","http://i.giphy.com/UmxjgdgCLPFu.gif","http://i.giphy.com/UxTZDNv0Zej4s.gif"],
     
-    "Waterfall" => ["http://giphy.com/gifs/1lRrsraIsEYRW","http://giphy.com/gifs/124syoqOkiOo4o","http://giphy.com/gifs/1lT1OgxCHHnAk"],
+    "Waterfall" => ["http://i.giphy.com/1lRrsraIsEYRW.gif","http://i.giphy.com/124syoqOkiOo4o.gif","http://i.giphy.com/1lT1OgxCHHnAk.gif"],
     
-    "Lava" => ["http://giphy.com/gifs/CWOL3g43ypHi0"],
+    "Lava" => ["http://i.giphy.com/CWOL3g43ypHi0.gif","http://i.giphy.com/8FE4N1m4w9MkM.gif","http://i.giphy.com/Ha24wpvqwswGQ.gif"],
     
-    "Northern Lights" => ["http://giphy.com/gifs/awATIzd4tGGeQ","giphy.com/embed/krQzJaxbU1aXS?html5=true"],
+    "Northern Lights" => ["http://i.giphy.com/awATIzd4tGGeQ.gif","http://i.giphy.com/krQzJaxbU1aXS.gif"],
     
-    "Sunrise/Sunset" => ["http://giphy.com/gifs/4k5zJ8BOxTmq4","http://giphy.com/gifs/AzgbU5qHJlKuY","http://giphy.com/gifs/JZGmwArn4vN8A"]
+    "Sunrise/Sunset" => ["http://i.giphy.com/4k5zJ8BOxTmq4.gif","http://i.giphy.com/AzgbU5qHJlKuY.gif","http://i.giphy.com/JZGmwArn4vN8A.gif"]
     
      }
   return gifs[place].sample
