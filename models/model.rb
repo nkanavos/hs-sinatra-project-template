@@ -43,7 +43,7 @@ def get_gif(place)
     
     "Sunrise/Sunset" => ["http://giphy.com/gifs/4k5zJ8BOxTmq4","http://giphy.com/gifs/AzgbU5qHJlKuY","http://giphy.com/gifs/JZGmwArn4vN8A"]
     
-    }
+     }
   return gifs[place].sample
 end 
 # puts get_quote("relationships")
