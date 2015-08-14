@@ -1,8 +1,14 @@
 body {
-  background:turquoise;
+  background-color:turquoise;
 }
 img {
-  margin-top: 250px;
+  margin-top: 175px;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+div {
+  width: 350px;
+  height: 250px;
+  color: red;
 }
