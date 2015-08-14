@@ -3,6 +3,14 @@
 body {
   background-color:blue;
   font-family:"Raleway", sans-serif;
+  background: rgba(215,239,245,1);
+background: -moz-linear-gradient(left, rgba(215,239,245,1) 0%, rgba(215,239,245,1) 8%, rgba(133,217,242,1) 50%, rgba(133,217,242,1) 50%, rgba(215,239,245,1) 91%, rgba(215,239,245,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(215,239,245,1)), color-stop(8%, rgba(215,239,245,1)), color-stop(50%, rgba(133,217,242,1)), color-stop(50%, rgba(133,217,242,1)), color-stop(91%, rgba(215,239,245,1)), color-stop(100%, rgba(215,239,245,1)));
+background: -webkit-linear-gradient(left, rgba(215,239,245,1) 0%, rgba(215,239,245,1) 8%, rgba(133,217,242,1) 50%, rgba(133,217,242,1) 50%, rgba(215,239,245,1) 91%, rgba(215,239,245,1) 100%);
+background: -o-linear-gradient(left, rgba(215,239,245,1) 0%, rgba(215,239,245,1) 8%, rgba(133,217,242,1) 50%, rgba(133,217,242,1) 50%, rgba(215,239,245,1) 91%, rgba(215,239,245,1) 100%);
+background: -ms-linear-gradient(left, rgba(215,239,245,1) 0%, rgba(215,239,245,1) 8%, rgba(133,217,242,1) 50%, rgba(133,217,242,1) 50%, rgba(215,239,245,1) 91%, rgba(215,239,245,1) 100%);
+background: linear-gradient(to right, rgba(215,239,245,1) 0%, rgba(215,239,245,1) 8%, rgba(133,217,242,1) 50%, rgba(133,217,242,1) 50%, rgba(215,239,245,1) 91%, rgba(215,239,245,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7eff5', endColorstr='#d7eff5', GradientType=1 );
 }
 
 img {
