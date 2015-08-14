@@ -2,6 +2,7 @@
 /*http://chromecastbg.alexmeub.com/images/1200_IMGP8440.jpg */
 body {
   background-image: url("../css/images/giffy.gif");
+  background-size: cover;
     font-family:"Raleway", sans-serif;
 }
 .round-button {
