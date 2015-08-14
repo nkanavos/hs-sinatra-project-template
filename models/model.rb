@@ -37,7 +37,7 @@ def get_gif(place)
     
     "Waterfall" => ["http://giphy.com/gifs/1lRrsraIsEYRW","http://giphy.com/gifs/124syoqOkiOo4o","http://giphy.com/gifs/1lT1OgxCHHnAk"],
     
-    "Lava" => ["http://giphy.com/gifs/CWOL3g43ypHi0","beachgif2","beachgif3"],
+    "Lava" => ["http://giphy.com/gifs/CWOL3g43ypHi0"],
     
     "Northern Lights" => ["http://giphy.com/gifs/awATIzd4tGGeQ","giphy.com/embed/krQzJaxbU1aXS?html5=true"],
     
