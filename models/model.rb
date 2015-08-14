@@ -29,7 +29,7 @@ def get_gif(place)
   gifs = {
     "Beach" => ["http://i.giphy.com/yvAzoTBh5hmCc.gif","http://i.giphy.com/WWYSFIZo4fsLC.gif","http://i.giphy.com/bYzN4ZYhG2waA.gif"],
     
-    "Clouds" => ["http://i.giphy.com/1TpGKApbHmkZa.gif","","http://i.giphy.com/Hp8e8eXnxxiAo.gif","http://i.giphy.com/4k5zJ8BOxTmq4.gif"],
+    "Clouds" => ["http://i.giphy.com/1TpGKApbHmkZa.gif","http://i.giphy.com/Hp8e8eXnxxiAo.gif","http://i.giphy.com/4k5zJ8BOxTmq4.gif","http://i.giphy.com/UknxX483P7qkE.gif","http://i.giphy.com/LRvR0xUyWpgI0.gif"],
     
     "Snow" => ["http://i.giphy.com/Nt9JdqWD2Drt6.gif","http://i.giphy.com/XcsdCc78BtNBu.gif","http://i.giphy.com/OdOfTkw2uVADC.gif"],
     
