@@ -39,32 +39,9 @@ class ApplicationController < Sinatra::Base
     erb :future
   end
   
-  get '/clouds' do
-    erb :future
-  end
+ gifs_lava = ["www.giphy.com/embed/CWOL3g43ypHi0?html5=true", "http://i.giphy.com/vtypH7byqLH4Q.gif", "http://i.giphy.com/WSDu1vDKiq5l6.gif"]
   
-  get '/lava' do
-    erb :lava
-  end
   
-  get '/sunrise' do
-    erb :sunrise
-  end
-  
-  get '/forest' do
-    erb :forest
-  end
-  
-  get '/lights' do
-    erb :lights
-  end
-  
-  get '/waterfall' do
-    erb :waterfall
-  end
-  
-  get '/snow' do
-    erb :snow
-  end
-  
+
+
 end
